@@ -1,5 +1,114 @@
 /*Browser Reset*/
- * {
+* {
   margin: 0;
   padding: 0;
+}
+body {
+  background-color: #faeee7;
+  color: black;
+}
+header {
+  max-width: 1440px;
+  background-color: #325288;
+  padding: 3rem 3rem;
+  margin: 0 auto;
+  color: white;
+}
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+nav {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 2em;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav ul li {
+  text-align: center;
+  display: inline;
+  padding: 0em 1em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header h1 {
+  margin: 1rem 0 1rem;
+}
+
+header h3 {
+  color: #d96098;
+}
+
+section {
+  margin: 1rem 2rem;
+}
+
+h2 {
+  margin: 1rem 0;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+#colour-list li {
+  margin: 0 0 0 1rem;
+}
+
+.card {
+  display: inline-block;
+  margin: 1rem;
+  width: 12rem;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 0 8px;
+}
+
+.colour-card {
+  width: 12rem;
+  height: 12rem;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin: 0;
+}
+
+.colourcode-card {
+  background-color: lightgrey;
+  width: 12rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 0.5rem 0;
+}
+
+.colourcode-card p {
+  margin: auto;
+  padding: 1px;
+}
+
+#colour1 {
+  background-color: #325288;
+}
+
+#colour2 {
+  background-color: #24a19c;
+}
+
+#colour3 {
+  background-color: #d96098;
 }
