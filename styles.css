@@ -6,6 +6,7 @@
 body {
   background-color: #faeee7;
   color: black;
+  font-family: Lato, Arial, Helvetica, sans-serif; 
 }
 header {
   max-width: 1440px;
@@ -22,7 +23,7 @@ main {
 
 footer {
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 1rem 2rem;
 }
 
 nav {
@@ -49,10 +50,12 @@ nav ul li a {
 
 header h1 {
   margin: 1rem 0 1rem;
+  font-family: Merriweather, 'Times New Roman', Times, serif;
 }
 
 header h3 {
   color: #d96098;
+  font-family: Lato, Arial, Helvetica, sans-serif; 
 }
 
 section {
@@ -61,6 +64,7 @@ section {
 
 h2 {
   margin: 1rem 0;
+  font-family: Merriweather, Georgia, 'Times New Roman', Times, serif;
 }
 
 p {
@@ -68,7 +72,11 @@ p {
 }
 
 #colour-list li {
-  margin: 0 0 0 1rem;
+  margin: 0.5rem 0 0 2rem;
+}
+
+#colour-row {
+  margin: 1rem 0;
 }
 
 .card {
