@@ -6,7 +6,7 @@
 body {
   background-color: #faeee7;
   color: black;
-  font-family: Lato, Arial, Helvetica, sans-serif; 
+  font-family: Lato, Arial, Helvetica, sans-serif;
 }
 header {
   max-width: 1440px;
@@ -19,11 +19,15 @@ header {
 main {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 2rem 2rem;
 }
 
 footer {
   max-width: 1440px;
-  margin: 1rem 2rem;
+  margin: auto;
+  padding: 1rem;
+  background-color: #24a19c;
+  color: white;
 }
 
 nav {
@@ -50,12 +54,12 @@ nav ul li a {
 
 header h1 {
   margin: 1rem 0 1rem;
-  font-family: Merriweather, 'Times New Roman', Times, serif;
+  font-family: Merriweather, "Times New Roman", Times, serif;
 }
 
 header h3 {
   color: #d96098;
-  font-family: Lato, Arial, Helvetica, sans-serif; 
+  font-family: Lato, Arial, Helvetica, sans-serif;
 }
 
 section {
@@ -64,7 +68,7 @@ section {
 
 h2 {
   margin: 1rem 0;
-  font-family: Merriweather, Georgia, 'Times New Roman', Times, serif;
+  font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
 }
 
 p {
@@ -75,7 +79,7 @@ p {
   margin: 0.5rem 0 0 2rem;
 }
 
-#colour-row {
+#row {
   margin: 1rem 0;
 }
 
@@ -119,4 +123,50 @@ p {
 
 #colour3 {
   background-color: #d96098;
+}
+
+.fonts h3 {
+  font-family: lato;
+  color: grey
+}
+
+.fonts {
+  margin: 0 0 3em 0;
+}
+
+.abrilFatface {
+  font-family: Abril Fatface;
+}
+
+.merriweather {
+  font-family: Merriweather;
+}
+
+.lato {
+  font-family: lato;
+}
+
+.black {
+  font-weight: 900;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.italic {
+  font-style: italic;
+}
+
+
+footer p {
+  margin: 1rem 2rem;
 }
